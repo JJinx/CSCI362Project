@@ -1,0 +1,9 @@
+testNumber=10
+comments=Testing for difference in keys set to sealed vs keys set to drafted
+requirement=Testing for difference in keys set to sealed vs keys set to drafted
+methodTested=common.database.DatabaseKey.isSealed()
+testDriverPath=./testCasesExecutables/
+testDriver=testDatabaseKeyStatuses
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./project/martus-utils/bin/:./testCasesExecutables/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar
+input= true
+expectedOutput= false

@@ -1,0 +1,9 @@
+testNumber=9
+comments=Testing if database keys are set to "sealed" by default??
+requirement=Testing if database keys are set to "sealed" by default
+methodTested=common.database.DatabaseKey.isSealed()
+testDriverPath=./testCasesExecutables/
+testDriver=testDatabaseKeySealed
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./project/martus-utils/bin/:./testCasesExecutables/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar
+input= true
+expectedOutput= true

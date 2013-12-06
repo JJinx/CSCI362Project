@@ -1,0 +1,9 @@
+testNumber=5
+comments=Testing password too short
+requirement=Password must be at least 8 characters
+methodTested=client.core.MartusUserNameAndPassword.validateUsernameAndPassword()
+testDriverPath=./testCasesExecutables/
+testDriver=testUsernamePassword
+classPath=./project/martus-client/bin/:./project/martus-common/bin/:./testCasesExecutables/
+input=--username=Username --password=1234567
+expectedOutput=org.martus.common.Exceptions$PasswordTooShortException

@@ -1,0 +1,9 @@
+testNumber=1
+comments=Testing encryption/decryption with null string
+requirement=Application must be able to encrypt and decrypt user data
+methodTested=common.crypto.MartusSecurity.encrypt() common.crypto.MartusSecurity.decrypt()
+testDriverPath=./testCasesExecutables/
+testDriver=testEncryptDecrypt
+classPath=./project/martus-utils/bin/:./project/martus-common/bin/:./testCasesExecutables/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar/
+input=
+expectedOutput=Decrypted string = ""

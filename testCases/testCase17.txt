@@ -1,0 +1,9 @@
+testNumber=17
+comments=Testing creating universal ID from account and local IDs
+requirement=Application must create a universal ID from account and local IDs
+methodTested=common.packet.UniversalId.createFromAccountAndLocalId()
+testDriverPath=./testCasesExecutables/
+testDriver=testUniversalID
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input=--account-id=someAccountID --local-id=someLocalID --prefix= --from-string=false
+expectedOutput=Account ID = someAccountID & Local ID = someLocalID

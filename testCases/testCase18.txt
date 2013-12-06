@@ -1,0 +1,9 @@
+testNumber=18
+comments=Testing creating universal ID from account and prefix
+requirement=Application must create a universal ID from account ID and a prefix
+methodTested=common.packet.UniversalId.createFromAccountAndPrefix()
+testDriverPath=./testCasesExecutables/
+testDriver=testUniversalID
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input=--account-id=someAccountID --local-id=someLocalID --prefix=D- --from-string=false
+expectedOutput=Account ID = someAccountID & Local ID length = 26

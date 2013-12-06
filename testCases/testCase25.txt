@@ -1,0 +1,9 @@
+testNumber=25
+comments=be sure that FieldSpec and MartusType return the the same types
+requirement=once a variable of type FieldSpec is given attributes, MartusField must inherit them (FieldSpec and MartusField are compared to each other here)
+methodTested=common.fieldspec.MessageField.getFieldSpec()
+testDriverPath=./testCasesExecutables/
+testDriver=testFieldBasicsCompare
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input= tag label
+expectedOutput= true

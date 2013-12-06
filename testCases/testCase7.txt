@@ -1,0 +1,9 @@
+testNumber=7
+comments=Testing valid username and password
+requirement=Valid usernames and passwords must be deemed as such
+methodTested=client.core.MartusUserNameAndPassword.validateUsernameAndPassword()
+testDriverPath=./testCasesExecutables/
+testDriver=testUsernamePassword
+classPath=./project/martus-client/bin/:./project/martus-common/bin/:./testCasesExecutables/
+input=--username=Username --password=Password
+expectedOutput=Username and password are valid.

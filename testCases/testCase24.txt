@@ -1,0 +1,9 @@
+testNumber=24
+comments=The "label" field type must be identifiable as "label" when .getLabel() called
+requirement=once a variable of type FieldSpec is given attributes, MartusField must inherit them (.getLabel() checked here)
+methodTested=common.fieldspec.MessageField.getFieldSpec()
+testDriverPath=./testCasesExecutables/
+testDriver=testFieldBasicsLabel
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input= label
+expectedOutput= true

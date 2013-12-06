@@ -1,0 +1,9 @@
+testNumber=19
+comments=Testing creating universal ID from string
+requirement=Application must create a universal ID from the string representation of account and local IDs
+methodTested=common.packet.UniversalId.createFromString()
+testDriverPath=./testCasesExecutables/
+testDriver=testUniversalID
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input=--account-id=someAccountID --local-id=someLocalID --prefix= --from-string=true
+expectedOutput=Account ID = someAccountID & Local ID = someLocalID

@@ -1,0 +1,9 @@
+testNumber=6
+comments=Testing blank username
+requirement=Username must not be blank
+methodTested=client.core.MartusUserNameAndPassword.validateUsernameAndPassword()
+testDriverPath=./testCasesExecutables/
+testDriver=testUsernamePassword
+classPath=./project/martus-client/bin/:./project/martus-common/bin/:./testCasesExecutables/
+input=--username= --password=Password
+expectedOutput=org.martus.common.Exceptions$BlankUserNameException

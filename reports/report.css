@@ -1,0 +1,86 @@
+html 
+{
+height: 100%;
+}
+body
+{
+background-attachment: fixed;
+min-height: 100%;
+font-family: Tahoma, Geneva, sans-serif;
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #034C52 200%);
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #034C52 200%);
+/* Opera */ 
+background-image: -o-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #034C52 200%);
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, left top, 0, left top, 1010, color-stop(0, #FFFFFF), color-stop(2, #034C52));
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(left top, ellipse farthest-corner, #FFFFFF 0%, #034C52 200%);
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #034C52 200%); 
+}
+h1
+{
+margin: 0px;
+}
+a
+{
+color: #034C52;
+}
+table.results
+{
+background: rgba(255, 255, 255, .4);
+table-layout: fixed;
+word-wrap: break-word;
+font-size: 10pt;
+margin: 30px auto;
+width: 90%;
+border-collapse: collapse;
+border: 2px inset black;
+}
+tr
+{
+text-align: center;
+}
+th.case
+{
+width: 6%;
+}
+th.status
+{
+width: 4%;
+}
+th.req, th.method, th.input, th.output
+{
+width: 23%;
+}
+th, td
+{
+border: 1px solid black;
+}
+tr.fail:hover
+{
+background: rgba(255, 0, 0, .1);
+}
+tr.pass:hover td
+{
+background: rgba(0, 255, 0, .1);
+}
+p.reason
+{
+text-align: left;
+border-radius: 5px;
+padding: 5px;
+border: 1px solid black;
+color: #fff;
+background-color: #000;
+max-width: 70%;
+pointer-events: none;
+position: absolute;
+visibility: hidden;
+}
+tr.fail:hover .reason
+{
+visibility: visible;
+}

@@ -1,0 +1,9 @@
+testNumber=8
+comments=Testing if setting a database key to draft works after its been initialized to "sealed" by default
+requirement=Testing if setting a database key to draft works after its been initialized to "sealed" by default
+methodTested=common.database.DatabaseKey.isDraft()
+testDriverPath=./testCasesExecutables/
+testDriver=testDatabaseKeyDrafted
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./project/martus-utils/bin/:./testCasesExecutables/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar
+input= true
+expectedOutput= true

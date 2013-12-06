@@ -1,0 +1,9 @@
+testNumber=16
+comments=Testing SSL port selection - no good port
+requirement=Application will try all available ports to establish a connection
+methodTested=clientside.ClientSideNetworkHandlerUsingXmlRpc.callServer()
+testDriverPath=./testCasesExecutables/
+testDriver=testSSLPortSelect
+classPath=./project/martus-thirdparty/common/XMLRPC/bin/*:./project/martus-clientside/bin/:./project/martus-common/bin/:./testCasesExecutables/:./project/martus-utils/bin/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar/
+input=--fail-all=true --good-port-first=7
+expectedOutput=Number of tried ports = 5

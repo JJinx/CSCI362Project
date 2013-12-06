@@ -1,0 +1,9 @@
+testNumber=13
+comments=Testing file database record creation/deletion no entries
+requirement=Application must be able to store and delete user data
+methodTested=common.database.FileDatabase.createRecord() common.database.FileDatabase.discardRecord()
+testDriverPath=./testCasesExecutables/
+testDriver=testDatabaseRecordCreateDelete
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./project/martus-thirdparty/libext/JUnit/bin/junit-4.11.jar/:./testCasesExecutables/:./project/martus-thirdparty/libext/BouncyCastle/bin/bcprov-jdk15on-148.jar
+input=--entries-to-create=0 --to-store=A string
+expectedOutput=Database record count = 0

@@ -1,0 +1,9 @@
+testNumber=23
+comments=The "tag" field type must be identifiable as "tag" when .getTag() called
+requirement=once a variable of type FieldSpec is given attributes, MartusField must inherit them (.getTag() field checked here)
+methodTested=common.fieldspec.MessageField.getFieldSpec()
+testDriverPath=./testCasesExecutables/
+testDriver=testFieldBasicsTag
+classPath=./project/martus-common/bin/:./project/martus-utils/bin/:./testCasesExecutables/
+input= tag
+expectedOutput= true

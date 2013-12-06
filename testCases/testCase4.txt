@@ -1,0 +1,9 @@
+testNumber=4
+comments=Testing username matches password
+requirement=Username must not match password
+methodTested=client.core.MartusUserNameAndPassword.validateUsernameAndPassword()
+testDriverPath=./testCasesExecutables/
+testDriver=testUsernamePassword
+classPath=./project/martus-client/bin/:./project/martus-common/bin/:./testCasesExecutables/
+input=--username=Password --password=Password
+expectedOutput=org.martus.common.Exceptions$PasswordMatchedUserNameException

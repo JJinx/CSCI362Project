@@ -1,0 +1,9 @@
+testNumber=20
+comments=Testing password less than 15 characters
+requirement=Passwords must be at least 15 characters with at least 2 non alphanumeric characters to be considered "strong"
+methodTested=client.core.MartusUserNameAndPassword.isWeakPassword()
+testDriverPath=./testCasesExecutables/
+testDriver=testWeakPassword
+classPath=./project/martus-client/bin/:./project/martus-common/bin/:./testCasesExecutables/
+input=--password=notStrong&^
+expectedOutput=Weak password
